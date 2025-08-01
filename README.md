@@ -1,4 +1,4 @@
-## **Code package: Gifuni, L. (202x). Whispers in the oil market: exploring sentiment and uncertainty insights, _International Journal of Forecasting_, conditionally accepted.**
+# **Code package: Gifuni, L. (202x). Whispers in the oil market: exploring sentiment and uncertainty insights, _International Journal of Forecasting_, conditionally accepted.**
 
 **Publication (open access).**
 
