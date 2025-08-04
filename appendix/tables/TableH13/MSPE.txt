@@ -1,0 +1,14 @@
+\text{Sentiment count} & 1.003 & 1.010 & 1.017 & 1.027 & 1.008 & 1.040 & 1.017 & 1.032 & 1.009 & 1.014 \\
+\text{Uncertainty count} & 1.017 & 1.026 & 1.019 & 1.028 & 1.030 & 1.034 & 1.025 & 1.061 & 1.006 & \textbf{0.998} \\
+\text{Boolean count} & 1.009 & 1.019 & 1.008 & 1.016 & 1.014 & 1.006 & 1.001 & 1.016 & 1.009 & 1.004 \\
+\text{Financial Stability} & \textbf{0.998} & 1.002 & 1.028 & 1.048 & 1.062 & 1.085 & 1.047 & 1.073 & 1.066 & 1.064 \\
+\text{Financial Liability} & \textbf{0.989\makebox[0pt][l]{$^{*}$}} & \textbf{0.995} & 1.003 & 1.025 & 1.000 & 1.027 & \textbf{0.965} & \textbf{0.995} & 1.022 & 1.036 \\
+\text{Afinn} & \textbf{0.976\makebox[0pt][l]{$^{**}$}} & \textbf{0.991} & \textbf{0.988} & 1.003 & \textbf{0.991} & \textbf{0.994} & \textbf{0.984} & 1.006 & \textbf{0.992} & 1.021 \\
+\text{Harvard-IV} & \textbf{0.997} & 1.003 & \textbf{0.997} & 1.021 & 1.009 & 1.026 & 1.012 & 1.068 & 1.010 & 1.016 \\
+\text{Sentiment tfm} & \textbf{0.996} & \textbf{0.987\makebox[0pt][l]{$^{*}$}} & \textbf{0.985} & \textbf{0.986\makebox[0pt][l]{$^{*}$}} & \textbf{0.987} & \textbf{0.981} & \textbf{0.979} & \textbf{0.995} & 1.019 & 1.005 \\
+\text{Uncertainty tfm} & 1.000 & 1.008 & 1.002 & 1.011 & 1.007 & \textbf{0.999} & \textbf{0.995} & 1.041 & 1.014 & 1.017 \\
+\text{Sentiment tf-idf} & \textbf{0.993} & \textbf{0.998} & 1.000 & 1.010 & 1.021 & 1.027 & 1.053 & 1.053 & 1.093 & 1.070 \\
+\text{Uncertainty tf-idf} & \textbf{0.997} & \textbf{0.996} & 1.013 & 1.005 & 1.004 & 1.010 & \textbf{0.988} & 1.029 & 1.031 & 1.031 \\
+\text{VADER} & \textbf{0.981\makebox[0pt][l]{$^{*}$}} & \textbf{0.994} & \textbf{0.984} & \textbf{0.997} & 1.004 & 1.001 & 1.025 & 1.053 & \textbf{0.983} & \textbf{0.981} \\
+\text{Opinion Sentiment} & \textbf{0.988\makebox[0pt][l]{$^{*}$}} & \textbf{0.993} & 1.004 & \textbf{0.991} & \textbf{0.993} & \textbf{0.976\makebox[0pt][l]{$^{**}$}} & \textbf{0.968} & 1.004 & 1.020 & \textbf{0.993} \\
+\text{BERT} & \textbf{0.947\makebox[0pt][l]{$^{***}$}} & \textbf{0.965\makebox[0pt][l]{$^{**}$}} & \textbf{0.957\makebox[0pt][l]{$^{**}$}} & \textbf{0.971} & \textbf{0.963\makebox[0pt][l]{$^{**}$}} & \textbf{0.961\makebox[0pt][l]{$^{*}$}} & \textbf{0.947} & \textbf{0.943\makebox[0pt][l]{$^{*}$}} & 1.010 & 1.006 \\
