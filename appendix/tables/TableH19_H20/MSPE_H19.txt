@@ -1,0 +1,15 @@
+\scalebox{1.2}{\text{No - text}} & 0.881\makebox[0pt][l]{$^{**}$} & 0.888\makebox[0pt][l]{$^{**}$} & 0.909 & 0.917 & 0.935 & 0.937 & 0.994 & 0.982 & 0.930 & 0.919 \\
+\scalebox{1.2}{\text{Sentiment count}} & 0.908\makebox[0pt][l]{$^{**}$} & 0.931 & 0.980 & 0.969 & 1.039 & 1.034 & 1.063 & 1.078 & 0.931 & \textbf{0.894} \\
+\scalebox{1.2}{\text{Uncertainty count}} & \textbf{0.878\makebox[0pt][l]{$^{**}$}} & 0.914\makebox[0pt][l]{$^{*}$} & 0.920 & 0.925 & 0.947 & 0.949 & 1.024 & 0.999 & 0.953 & 0.927 \\
+\scalebox{1.2}{\text{Boolean count}} & 0.887\makebox[0pt][l]{$^{**}$} & 0.919\makebox[0pt][l]{$^{*}$} & 0.921 & 0.931 & 0.952 & 0.948 & 1.008 & \textbf{0.979} & \textbf{0.928} & \textbf{\cellcolor{M1} 0.889} \\
+\scalebox{1.2}{\text{Financial Stability}} & 0.903\makebox[0pt][l]{$^{**}$} & 0.913 & 0.981 & 0.970 & 1.096 & 1.068 & 1.154 & 1.117 & 0.974 & 0.927 \\
+\scalebox{1.2}{\text{Financial Liability}} & 0.891\makebox[0pt][l]{$^{**}$} & 0.910 & 0.930 & 0.917 & 0.980 & 0.939 & 1.010 & 0.988 & 0.948 & \textbf{0.884} \\
+\scalebox{1.2}{\text{Afinn}} & 0.884\makebox[0pt][l]{$^{**}$} & 0.897\makebox[0pt][l]{$^{*}$} & 0.926 & 0.943 & 0.941 & 0.951 & \textbf{0.985} & 0.999 & 0.979 & 1.004 \\
+\scalebox{1.2}{\text{Harvard-IV}} & 0.895\makebox[0pt][l]{$^{**}$} & 0.901\makebox[0pt][l]{$^{*}$} & 0.928 & 0.959 & 0.957 & 0.970 & \textbf{0.982} & 1.000 & 0.966 & 0.991 \\
+\scalebox{1.2}{\text{Sentiment tfm}} & 0.888\makebox[0pt][l]{$^{**}$} & 0.906\makebox[0pt][l]{$^{*}$} & 0.920 & 0.917 & 0.961 & 0.948 & 1.042 & 1.021 & 0.991 & 0.941 \\
+\scalebox{1.2}{\text{Uncertainty tfm}} & 0.894\makebox[0pt][l]{$^{**}$} & 0.911\makebox[0pt][l]{$^{*}$} & 0.947 & 0.931 & 0.992 & 0.956 & 1.024 & 1.015 & 0.953 & 0.927 \\
+\scalebox{1.2}{\text{Sentiment tf-idf}} & \textbf{0.876\makebox[0pt][l]{$^{**}$}} & \textbf{0.882\makebox[0pt][l]{$^{**}$}} & 0.911 & \textbf{0.905} & 0.948 & \textbf{0.918} & 1.058 & 1.007 & 1.038 & 1.004 \\
+\scalebox{1.2}{\text{Uncertainty tf-idf}} & 0.903\makebox[0pt][l]{$^{**}$} & 0.902\makebox[0pt][l]{$^{*}$} & 0.974 & 0.957 & 1.025 & 0.996 & 1.023 & 1.024 & 0.945 & 0.931 \\
+\scalebox{1.2}{\text{VADER}} & 0.894\makebox[0pt][l]{$^{**}$} & 0.902\makebox[0pt][l]{$^{*}$} & 0.956 & 0.963 & 1.000 & 0.990 & \cellcolor{M10} 1.062 & 1.042 & \cellcolor{M10} 1.036 & \cellcolor{M10} 1.050 \\
+\scalebox{1.2}{\text{Opinion Sentiment}} & 0.908\makebox[0pt][l]{$^{**}$} & 0.898\makebox[0pt][l]{$^{*}$} & 0.948 & 0.965 & 0.966 & 0.988 & \textbf{0.970} & 0.990 & \textbf{0.928} & 0.922 \\
+\scalebox{1.2}{\text{BERT}} & \textbf{\cellcolor{M10} 0.837\makebox[0pt][l]{$^{**}$}} & \textbf{0.849\makebox[0pt][l]{$^{*}$}} & \textbf{\cellcolor{M10} 0.848} & \textbf{0.842} & \textbf{\cellcolor{M5} 0.900} & \textbf{\cellcolor{M10} 0.865} & \textbf{0.973} & \textbf{0.956} & 0.974 & 0.936 \\

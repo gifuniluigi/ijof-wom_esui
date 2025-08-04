@@ -1,0 +1,14 @@
+\scalebox{1.2}{\text{Sentiment count}} & 1.031 & 1.049 & 1.078 & 1.057 & 1.111 & 1.103 & 1.069 & 1.098 & 1.001 & \textbf{0.972} \\
+\scalebox{1.2}{\text{Uncertainty count}} & \textbf{0.997} & 1.029 & 1.012 & 1.008 & 1.013 & 1.012 & 1.030 & 1.018 & 1.025 & 1.008 \\
+\scalebox{1.2}{\text{Boolean count}} & 1.008 & 1.035 & 1.012 & 1.015 & 1.018 & 1.011 & 1.014 & \textbf{0.998} & \textbf{0.998} & \textbf{0.967\makebox[0pt][l]{$^{***}$}} \\
+\scalebox{1.2}{\text{Financial Stability}} & 1.026 & 1.028 & 1.079 & 1.057 & 1.172 & 1.139 & 1.161 & 1.138 & 1.047 & 1.009 \\
+\scalebox{1.2}{\text{Financial Liability}} & 1.012 & 1.025 & 1.023 & 1.000 & 1.048 & 1.001 & 1.016 & 1.007 & 1.019 & \textbf{0.962} \\
+\scalebox{1.2}{\text{Afinn}} & 1.004 & 1.010 & 1.018 & 1.028 & 1.006 & 1.015 & \textbf{0.991} & 1.018 & 1.052 & 1.092 \\
+\scalebox{1.2}{\text{Harvard-IV}} & 1.017 & 1.014 & 1.020 & 1.045 & 1.024 & 1.035 & \textbf{0.988} & 1.018 & 1.039 & 1.078 \\
+\scalebox{1.2}{\text{Sentiment tfm}} & 1.008 & 1.020 & 1.012 & 1.000 & 1.027 & 1.011 & 1.048 & 1.040 & 1.065 & 1.024 \\
+\scalebox{1.2}{\text{Uncertainty tfm}} & 1.015 & 1.026 & 1.042 & 1.015 & 1.061 & 1.020 & 1.030 & 1.034 & 1.025 & 1.008 \\
+\scalebox{1.2}{\text{Sentiment tf-idf}} & \textbf{0.994} & \textbf{0.993} & 1.002 & \textbf{0.986} & 1.014 & \textbf{0.979} & 1.064 & 1.026 & 1.116 & 1.092 \\
+\scalebox{1.2}{\text{Uncertainty tf-idf}} & 1.025 & 1.015 & 1.071 & 1.044 & 1.096 & 1.062 & 1.029 & 1.044 & 1.016 & 1.012 \\
+\scalebox{1.2}{\text{VADER}} & 1.015 & 1.016 & 1.052 & 1.050 & 1.070 & 1.057 & 1.068\makebox[0pt][l]{$^{*}$} & 1.061 & 1.114\makebox[0pt][l]{$^{*}$} & 1.142\makebox[0pt][l]{$^{*}$} \\
+\scalebox{1.2}{\text{Opinion Sentiment}} & 1.031 & 1.011 & 1.043 & 1.052 & 1.033 & 1.054 & \textbf{0.976} & 1.008 & \textbf{0.998} & 1.002 \\
+\scalebox{1.2}{\text{BERT}} & \textbf{0.950\makebox[0pt][l]{$^{*}$}} & \textbf{0.956} & \textbf{0.932\makebox[0pt][l]{$^{*}$}} & \textbf{0.918} & \textbf{0.963\makebox[0pt][l]{$^{**}$}} & \textbf{0.923\makebox[0pt][l]{$^{*}$}} & \textbf{0.978} & \textbf{0.974} & 1.047 & 1.018 \\
