@@ -1,0 +1,8 @@
+\textbf{PCA(1)} & \textbf{0.951\makebox[0pt][l]{$^{***}$}} & \textbf{0.933\makebox[0pt][l]{$^{***}$}} & \textbf{0.943\makebox[0pt][l]{$^{**}$}} & \textbf{0.964\makebox[0pt][l]{$^{*}$}} & \textbf{0.962\makebox[0pt][l]{$^{**}$}} & \textbf{0.957\makebox[0pt][l]{$^{*}$}} & \textbf{0.960} & \textbf{0.955\makebox[0pt][l]{$^{*}$}} & \textbf{0.985} & \textbf{0.979} \\
+\textbf{FVAR} & \textbf{0.954\makebox[0pt][l]{$^{***}$}} & \textbf{0.967\makebox[0pt][l]{$^{**}$}} & \textbf{0.956\makebox[0pt][l]{$^{**}$}} & \textbf{0.961\makebox[0pt][l]{$^{*}$}} & \textbf{0.973\makebox[0pt][l]{$^{*}$}} & \textbf{0.961\makebox[0pt][l]{$^{*}$}} & \textbf{0.961} & \textbf{0.960\makebox[0pt][l]{$^{*}$}} & \textbf{0.999} & \textbf{0.989} \\
+\textbf{3PRF} & \textbf{0.987} & \textbf{0.981\makebox[0pt][l]{$^{**}$}} & \textbf{0.976} & \textbf{0.970} & \textbf{0.976} & \textbf{0.962} & 1.011 & 1.005 & 1.021 & \textbf{0.985} \\
+\textbf{OPU} & 1.008 & \textbf{0.992} & 1.022 & \textbf{0.976} & 1.024 & \textbf{0.990} & \textbf{0.975} & \textbf{0.977} & \textbf{0.988} & \textbf{0.984} \\
+\textbf{BW} & 1.004 & 1.011 & 1.009 & 1.012 & 1.021 & 1.008 & 1.015 & 1.012 & 1.051 & 1.074 \\
+\textbf{IV} -- \textit{VADER} & \textbf{0.998} & 1.000 & \textbf{0.979} & 1.008 & \textbf{0.974} & \textbf{0.995} & \textbf{0.967} & 1.006 & 1.122 & 1.135 \\
+\textbf{IV} -- \textit{Opinion Sentiment} & \textbf{0.998} & 1.004 & \textbf{0.985} & \textbf{0.998} & \textbf{0.978} & \textbf{0.997} & \textbf{0.972} & 1.007 & 1.128 & 1.146 \\
+\textbf{IV} -- \textit{Bert} & \textbf{0.995} & 1.000 & \textbf{0.979} & \textbf{0.995} & \textbf{0.973} & \textbf{0.995} & \textbf{0.970} & 1.008 & 1.116 & 1.139 \\
