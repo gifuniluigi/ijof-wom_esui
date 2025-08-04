@@ -1,0 +1,10 @@
+\textbf{Sentiment Count} & 0.47 & 0.62 \\
+\textbf{Financial Stability} & 0.34 & 0.44 \\
+\textbf{Financial Liability} & 0.21 & 0.16 \\
+\textbf{Afinn} & 0.04 & 0.06 \\
+\textbf{Harvard-IV} & 0.35 & 0.28 \\
+\textbf{Sentiment TFM} & 0.17 & 0.03 \\
+\textbf{Sentiment TF-IDF} & 0.57 & 0.12 \\
+\textbf{VADER} & 0.00 & 0.00 \\
+\textbf{Opinion Sentiment} & 0.02 & 0.00 \\
+\textbf{BERT} & 0.00 & 0.00 \\
