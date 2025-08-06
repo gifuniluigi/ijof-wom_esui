@@ -5,7 +5,8 @@
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3957549"><u>Final working paper version.</u></a>
 
-<a href="[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3957549](https://www.eia.gov/finance/markets/reports_presentations/2025/Gifuni_EIAWS_2025.pdf)"><u>Slides.</u></a>
+<a href="https://www.eia.gov/finance/markets/reports_presentations/2025/Gifuni_EIAWS_2025.pdf"><u>Slides.</u></a>
+
 ---
 
 All results in this repository were generated on one of the following machines:
