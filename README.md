@@ -57,8 +57,10 @@ The `Table 3` folder contains two subfolders:
 - `4-SVBVAR/` — `Get_Table3_4SVBVAR.m` generates results reported in **line 1** of Table 3.  
 - `5-SVBVAR/` — `Get_Table3.m` generates results for **lines 2–15** (_Sentiment_ count through _BERT_).
 
-1. In `tables/Table 3/4-SVBVAR/` run:
-   ```matlab
-   Get_Table3_4SVBVAR.m
+1. In folder `4-SVBVAR` run `Get_Table3_4SVBVAR.m` and save the output as `4SVBVAR0`
+2. Move `4SVBVAR0` into `tables/Table 3/5-SVBVAR/functions/`
+3. In `tables/Table 3/5-SVBVAR/` run `Get_Table3.m` one text index at a time. For example, by default line 37 in `Get_Table3.m` is Sentiment = SentVar(2:end,1); which uses the first text index. Run and save the result as `4SVBVAR1`. Then, change line 37 to Sentiment = SentVar(2:end,2); run again and save as `4SVBVAR2`. Continue incrementing the index and saving results up to `4SVBVAR14`. See the comment block on lines 39–52 in `Get_Table3.m` for the mapping of index.
+4. After running all indices, run `Print_Table3_tex.m` in `tables/Table 3/5-SVBVAR/` to print Table 3 in LaTeX format.
+
 
 
