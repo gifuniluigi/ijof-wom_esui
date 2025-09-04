@@ -31,7 +31,7 @@ All results in this repository were generated on one of the following machines:
 
 ---
 
-## **Replication Code**  
+## **Replication Code and Instructions**  
 - Folder **data**  
   - Contains the original time-series data in their raw formats.
 
@@ -45,3 +45,20 @@ All results in this repository were generated on one of the following machines:
 
 - Folder **appendix**  
   - Code for generating the tables and figures in the online appendix.
+
+> **Important:** Run MATLAB scripts from within MATLAB (set the current folder to the script folder or add it to the MATLAB path). Run R scripts with `Rscript` or in an R environment from the folder containing the script.
+
+### Table 3
+
+The `tables/Table 3/` folder contains two subfolders:
+
+- `4-SVBVAR/` — run `Get_Table3_4SVBVAR.m` to produce results reported in **line 1** of Table 3.  
+- `5-SVBVAR/` — run `Get_Table3.m` to generate results for **lines 2–15** (Sentiment count through BERT).
+
+**Step-by-step**
+
+1. In `tables/Table 3/4-SVBVAR/` run:
+   ```matlab
+   Get_Table3_4SVBVAR.m
+
+
