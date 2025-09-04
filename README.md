@@ -48,7 +48,7 @@ All results in this repository were generated on one of the following machines:
 
 ---
 
-> **Important:** Run MATLAB scripts from within MATLAB (set the current folder to the script folder or add it to the MATLAB path). Run R scripts with `Rscript` or in an R environment from the folder containing the script.
+> **execution checklist:** (recommended order)
 
 ### Table 3
 
@@ -62,20 +62,28 @@ The `Table 3` folder contains two subfolders:
 3. In `tables/Table 3/5-SVBVAR/` run `Get_Table3.m` one text index at a time. For example, by default line 37 in `Get_Table3.m` is Sentiment = SentVar(2:end,1); which uses the first text index. Run and save the result as `4SVBVAR1`. Then, change line 37 to Sentiment = SentVar(2:end,2); run again and save as `4SVBVAR2`. Continue incrementing the index and saving results up to `4SVBVAR14`. See the comment block on lines 39–52 in `Get_Table3.m` for the mapping of index.
 4. After running all indices, run `Print_Table3_tex.m` in `tables/Table 3/5-SVBVAR/` to print Table 3 in LaTeX format.
 
-
 ### Table 4
 
 1. In `tables/Table 4/` run `Get_Table4_5SVBVAR.m`. _Note_: you will need to select the combination for each estimation at line 38 (see comments on lines 40–48).
-2. Run `Print_Table4_5SVBVAR.m` to print the results in LaTeX format (one line per combination).
-
+2. In `tables/Table 4/` run `Print_Table4_5SVBVAR.m` to print the results in LaTeX format (one line per combination).
 
 ### Table 5
 
-1. In `PanelA_mspe` each subfolder is named as the index under investigation and contains two `.m` files:
+1. In `tables/Table 5/PanelA_mspe` each subfolder is named as the index under investigation and contains two `.m` files:
   - a generator `.m` file to produce results using that index,
   - a printer `.m` file to produce the single-line LaTeX output.
     Run the generator, then the printer, for each index folder. 
-2. In `PanelB_mspe` run:
-  a) `GetMCS.m` to generate MCS results,
-  b) `MCS_file.R` in R to print the MCS results.
+2. In `tables/Table 5/PanelB_mspe` run:
+  - `GetMCS.m` to generate MCS results,
+  - `MCS_file.R` in R to print the MCS results.
+
+### Table 6
+
+1. In `tables/Table 6/` run `Get_Table6.m` once to automatically estimates all model specifications.
+    Run the generator, then the printer, for each index folder. 
+2. In `tables/Table 6/` run `Print_Table6_panelA.m` and `Print_Table6_panelB.m` to generate Panels A and B of Table 6.
+
+### Table 7
+
+1. In `tables/Table 7/` run `auroc.main.r`. This single R script runs the AUROC analysis and prints the results reported in Table 7.
 
