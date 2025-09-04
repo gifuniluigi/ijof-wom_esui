@@ -63,4 +63,19 @@ The `Table 3` folder contains two subfolders:
 4. After running all indices, run `Print_Table3_tex.m` in `tables/Table 3/5-SVBVAR/` to print Table 3 in LaTeX format.
 
 
+### Table 4
+
+1. In `tables/Table 4/` run `Get_Table4_5SVBVAR.m`. _Note_: you will need to select the combination for each estimation at line 38 (see comments on lines 40–48).
+2. Run `Print_Table4_5SVBVAR.m` to print the results in LaTeX format (one line per combination).
+
+
+### Table 5
+
+1. In `PanelA_mspe` each subfolder is named as the index under investigation and contains two `.m` files:
+  a) a generator `.m` file to produce results using that index,
+  b) a printer `.m` file to produce the single-line LaTeX output.
+     Run the generator, then the printer, for each index folder. 
+2. In `PanelB_mspe` run:
+  a) `GetMCS.m` to generate MCS results,
+  b) `MCS_file.R` in R to print the MCS results.
 
