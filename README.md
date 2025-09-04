@@ -72,9 +72,9 @@ The `Table 3` folder contains two subfolders:
 ### Table 5
 
 1. In `PanelA_mspe` each subfolder is named as the index under investigation and contains two `.m` files:
-  a) a generator `.m` file to produce results using that index,
-  b) a printer `.m` file to produce the single-line LaTeX output.
-     Run the generator, then the printer, for each index folder. 
+  - a generator `.m` file to produce results using that index,
+  - a printer `.m` file to produce the single-line LaTeX output.
+    Run the generator, then the printer, for each index folder. 
 2. In `PanelB_mspe` run:
   a) `GetMCS.m` to generate MCS results,
   b) `MCS_file.R` in R to print the MCS results.
