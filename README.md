@@ -46,8 +46,6 @@ All results in this repository were generated on one of the following machines:
 - Folder **appendix**  
   - Code for generating the tables and figures in the online appendix.
 
----
-
 > **execution checklist:** (recommended order)
 
 ### Table 3
