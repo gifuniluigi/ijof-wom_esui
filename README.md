@@ -79,19 +79,19 @@ The `Table 3` folder contains two subfolders:
 
 1. In `tables/Table 6/` run `Get_Table6.m` to generate all result files both with and without the TOSI index. The script creates the SVBVARcmb*.mat files used by the printing scripts (`Print_Table6_panelA.m` and `Print_Table6_panelB.m`).
 2. To print Panel A, edit `tables/Table 6/Print_Table6_panelA.m`. Specifically, for each line of Table 6 you must set the two .mat file names on lines 11 and 12 to the appropriate pair. Use the following mapping:
-   - Line 1 (Table 6): set line 11 -> 'SVBVARcmb1.mat' and line 12 -> 'SVBVARcmb2.mat'
+   - **Line 1 (Table 6):** set line 11 -> `SVBVARcmb1.mat` and line 12 -> `SVBVARcmb2.mat`
        - comparison: AR model on oil price lags  vs  2-variable SVBVAR with oil prices + TOSI
-   - Line 2 (Table 6): set line 11 -> 'SVBVARcmb3.mat' and line 12 -> 'SVBVARcmb4.mat'
+   - **Line 2 (Table 6):** set line 11 -> `SVBVARcmb3.mat` and line 12 -> `SVBVARcmb4.mat`
        - comparison: 2-variable SVBVAR (oil prices + global crude oil production)  vs  3-variable SVBVAR where TOSI is added
-   - Line 3 (Table 6): set line 11 -> 'SVBVARcmb5.mat' and line 12 -> 'SVBVARcmb6.mat'
+   - **Line 3 (Table 6):** set line 11 -> `SVBVARcmb5.mat` and line 12 -> `SVBVARcmb6.mat`
        - comparison: 3-variable SVBVAR (oil prices + global crude oil production + world industrial production)  vs  4-variable SVBVAR where TOSI is added
-   - Line 4 (Table 6): set line 11 -> 'SVBVARcmb7.mat' and line 12 -> 'SVBVARcmb8.mat'
+   - **Line 4 (Table 6):** set line 11 -> `SVBVARcmb7.mat` and line 12 -> `SVBVARcmb8.mat`
        - comparison: 4-variable SVBVAR (oil prices + global crude oil production + world industrial production + oil inventories)  vs  5-variable SVBVAR where TOSI is added
 3. The same logic applies for Panel B. For `Print_Table6_panelB.m` use the same .mat pairs to print the corresponding table lines:
-   - 'SVBVARcmb1' & 'SVBVARcmb2' -> first line of Table 6
-   - 'SVBVARcmb3' & 'SVBVARcmb4' -> second line of Table 6
-   - 'SVBVARcmb5' & 'SVBVARcmb6' -> third line of Table 6
-   - 'SVBVARcmb7' & 'SVBVARcmb8' -> fourth line of Table 6
+   - `SVBVARcmb1` & `SVBVARcmb2` -> **Line 1 of Table 6**
+   - `SVBVARcmb3` & `SVBVARcmb4` -> **Line 2 of Table 6**
+   - `SVBVARcmb5` & `SVBVARcmb6` -> **Line 3 of Table 6**
+   - `SVBVARcmb7` & `SVBVARcmb8` -> **Line 4 of Table 6**
 
 ### Table 7
 
