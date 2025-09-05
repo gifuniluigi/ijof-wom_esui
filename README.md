@@ -88,10 +88,10 @@ The `Table 3` folder contains two subfolders:
    - **Line 4 (Table 6):** set line 11 -> `SVBVARcmb7.mat` and line 12 -> `SVBVARcmb8.mat`
        - comparison: 4-variable SVBVAR (oil prices + global crude oil production + world industrial production + oil inventories)  vs  5-variable SVBVAR where TOSI is added
 3. The same logic applies for Panel B. For `Print_Table6_panelB.m` use the same .mat pairs to print the corresponding table lines:
-   - `SVBVARcmb1` & `SVBVARcmb2` -> **Line 1 of Table 6**
-   - `SVBVARcmb3` & `SVBVARcmb4` -> **Line 2 of Table 6**
-   - `SVBVARcmb5` & `SVBVARcmb6` -> **Line 3 of Table 6**
-   - `SVBVARcmb7` & `SVBVARcmb8` -> **Line 4 of Table 6**
+   - `SVBVARcmb1` & `SVBVARcmb2` -> **Line 1 of Table 6, Panel B**
+   - `SVBVARcmb3` & `SVBVARcmb4` -> **Line 2 of Table 6, Panel B**
+   - `SVBVARcmb5` & `SVBVARcmb6` -> **Line 3 of Table 6, Panel B**
+   - `SVBVARcmb7` & `SVBVARcmb8` -> **Line 4 of Table 6, Panel B**
 
 ### Table 7
 
