@@ -97,3 +97,5 @@ The `Table 3` folder contains two subfolders:
 
 1. In `tables/Table 7/` run `auroc.main.r`. This single R script runs the AUROC analysis and prints the results reported in Table 7.
 
+_Note:_ The estimation routines use Bayesian sampling to draw from posterior distributions. As a result, small numerical differences between runs on different machines are expected. Such variation typically affects only very small digits and does not alter the substantive conclusions reported in the paper.
+
