@@ -62,9 +62,25 @@ The `Table 3` folder contains two subfolders:
 
 ### Table 4
 
-1. In `tables/Table 4/`, `Get_Table4_5SVBVAR.m` generates the results for each newspaper combination, while `Print_Table4_5SVBVAR.m` prints results in Table 4. _Note_: you will need to select the combination for each estimation at line 38 (see comments on lines 40–48). For example:
-   - 
-3. In `tables/Table 4/` run `Print_Table4_5SVBVAR.m` to print the results in LaTeX format (one line per combination).
+The `Table 3` folder contains two .m files:
+
+- `Get_Table4_5SVBVAR.m` generates the results reported in Table 4. _Note you must select the sentiment combination for each estimation on line 38 (see comments on lines 40-48)_  
+- `Print_Table4_5SVBVAR.m` prints the results in LaTeX format (one table row per combination).
+
+Example workflow.
+- To produce Line 1 of Table 4 (FT + TR, VADER):
+1. In `Get_Table4_5SVBVAR.m`, on line 38, set "Sentiment = SentVar(2:end,1);". This selects the VADER index constructed from Financial Times and Thomson Reuters text data.
+2. Run `Get_Table4_5SVBVAR.m`. The results will be saved as `5SVBVARFtTrVader.mat`
+3. In `Print_Table4_5SVBVAR.m`, edit line 8 to "load 5SVBVARFtTrVader". Then run `Print_Table4_5SVBVAR.m` to obtain Line 1 of Table 4 in LaTeX format.
+
+- To produce Line 2 of Table 4 (FT + IND, VADER):
+1. In `Get_Table4_5SVBVAR.m`, on line 38, set "Sentiment = SentVar(2:end,2);". This selects the VADER index constructed from Financial Times and Independent text data.
+2. Run `Get_Table4_5SVBVAR.m`. The results will be saved as `5SVBVARFtIndVader.mat`
+3. In `Print_Table4_5SVBVAR.m`, edit line 8 to "load 5SVBVARFtIndVader". Then run `Print_Table4_5SVBVAR.m` to obtain Line 2 of Table 4 in LaTeX format.
+
+Repeat the same procedure for the remaining lines of Table 4, selecting the appropriate column in SentVar on line 38, then loading the corresponding .m file in `Print_Table4_5SVBVAR.m`.
+
+
 
 ### Table 5
 
