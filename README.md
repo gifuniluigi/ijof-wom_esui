@@ -62,8 +62,9 @@ The `Table 3` folder contains two subfolders:
 
 ### Table 4
 
-1. In `tables/Table 4/` run `Get_Table4_5SVBVAR.m`. _Note_: you will need to select the combination for each estimation at line 38 (see comments on lines 40–48).
-2. In `tables/Table 4/` run `Print_Table4_5SVBVAR.m` to print the results in LaTeX format (one line per combination).
+1. In `tables/Table 4/`, `Get_Table4_5SVBVAR.m` generates the results for each newspaper combination, while `Print_Table4_5SVBVAR.m` prints results in Table 4. _Note_: you will need to select the combination for each estimation at line 38 (see comments on lines 40–48). For example:
+   - 
+3. In `tables/Table 4/` run `Print_Table4_5SVBVAR.m` to print the results in LaTeX format (one line per combination).
 
 ### Table 5
 
