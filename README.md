@@ -62,7 +62,7 @@ The `Table 3` folder contains two subfolders:
 
 ### Table 4
 
-The `Table 3` folder contains two .m files:
+The `Table 4` folder contains two .m files:
 
 - `Get_Table4_5SVBVAR.m` generates the results reported in Table 4. _Note you must select the sentiment combination for each estimation on line 38 (see comments on lines 40-48)_  
 - `Print_Table4_5SVBVAR.m` prints the results in LaTeX format (one table row per combination).
