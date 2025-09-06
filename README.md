@@ -50,7 +50,7 @@ All results in this repository were generated on one of the following machines:
 
 ### Table 3
 
-The `Table 3` folder contains two subfolders:
+The `Table3` folder contains two subfolders:
 
 - `4-SVBVAR/` — `Get_Table3_4SVBVAR.m` generates results reported in **line 1** of Table 3.  
 - `5-SVBVAR/` — `Get_Table3.m` generates results for **lines 2–15** (_Sentiment_ count through _BERT_).
@@ -62,7 +62,7 @@ The `Table 3` folder contains two subfolders:
 
 ### Table 4
 
-The `Table 4` folder contains two .m files:
+The `Table4` folder contains two .m files:
 
 - `Get_Table4_5SVBVAR.m` generates the results reported in Table 4. _Note you must select the sentiment combination for each estimation on line 38 (see comments on lines 40-48)_  
 - `Print_Table4_5SVBVAR.m` prints the results in LaTeX format (one table row per combination).
@@ -84,18 +84,18 @@ Repeat the same procedure for the remaining lines of Table 4, selecting the appr
 
 ### Table 5
 
-1. In `tables/Table 5/PanelA_mspe` each subfolder is named as the index under investigation and contains two `.m` files:
+1. In `tables/Table5/PanelA_mspe` each subfolder is named as the index under investigation and contains two `.m` files:
   - a generator `.m` file to produce results using that index,
   - a printer `.m` file to produce the single-line LaTeX output.
     Run the generator, then the printer, for each index folder. 
-2. In `tables/Table 5/PanelB_mspe` run:
+2. In `tables/Table5/PanelB_mspe` run:
   - `GetMCS.m` to generate MCS results,
   - `MCS_file.R` in R to print the MCS results.
 
 ### Table 6
 
-1. In `tables/Table 6/` run `Get_Table6.m` to generate all result files both with and without the TOSI index. The script creates the SVBVARcmb*.mat files used by the printing scripts (`Print_Table6_panelA.m` and `Print_Table6_panelB.m`).
-2. To print Panel A, edit `tables/Table 6/Print_Table6_panelA.m`. Specifically, for each line of Table 6 you must set the two .mat file names on lines 11 and 12 to the appropriate pair. Use the following mapping:
+1. In `tables/Table6/` run `Get_Table6.m` to generate all result files both with and without the TOSI index. The script creates the SVBVARcmb*.mat files used by the printing scripts (`Print_Table6_panelA.m` and `Print_Table6_panelB.m`).
+2. To print Panel A, edit `tables/Table6/Print_Table6_panelA.m`. Specifically, for each line of Table 6 you must set the two .mat file names on lines 11 and 12 to the appropriate pair. Use the following mapping:
    - **Line 1 (Table 6):** set line 11 -> `SVBVARcmb1.mat` and line 12 -> `SVBVARcmb2.mat`
        - comparison: AR model on oil price lags  vs  2-variable SVBVAR with oil prices + TOSI
    - **Line 2 (Table 6):** set line 11 -> `SVBVARcmb3.mat` and line 12 -> `SVBVARcmb4.mat`
@@ -112,7 +112,26 @@ Repeat the same procedure for the remaining lines of Table 4, selecting the appr
 
 ### Table 7
 
-1. In `tables/Table 7/` run `auroc.main.r`. This single R script runs the AUROC analysis and prints the results reported in Table 7.
+The `Table7` folder contains the script `auroc.main.r`, which generates the results reported in Table 7. 
+1. Open `auroc.main.r`.
+2. Set the working directory as indicated in the comment on line 4 of the script.
+3. Run the script up to line 36 (this initialises the data and functions).
+   - Line 1 of Table 7 (Global Financial Crisis).
+     - Run lines 39–40 and 54–55. Results are saved as:
+       - `results.nt` → 4-SVBVAR (baseline model)
+       - `results.wt` → TOSI-based 5-SVBVAR
+   - Line 2 of Table 7 (Eurozone Sovereign Debt Crisis).
+     - Run lines 43–44 and 54–55. Results are saved as:
+       - `results.nt` → 4-SVBVAR (baseline model)
+       - `results.wt` → TOSI-based 5-SVBVAR
+   - Line 3 of Table 7 (COVID-19 Recession).
+     - Run lines 47–48 and 54–55. Results are saved as:
+       - `results.nt` → 4-SVBVAR (baseline model)
+       - `results.wt` → TOSI-based 5-SVBVAR
+   - Line 4 of Table 7 (Full Sample).
+     - Run lines 51–52 and 54–55. Results are saved as:
+       - `results.nt` → 4-SVBVAR (baseline model)
+       - `results.wt` → TOSI-based 5-SVBVAR
 
 ---
 
