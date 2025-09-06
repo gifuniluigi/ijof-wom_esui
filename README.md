@@ -115,7 +115,7 @@ Repeat the same procedure for the remaining lines of Table 4, selecting the appr
 The `Table7` folder contains the script `auroc.main.r`, which generates the results reported in Table 7. 
 1. Open `auroc.main.r`.
 2. Set the working directory as indicated in the comment on line 4 of the script.
-3. Run the script up to line 36 (this initialises the data and functions).
+3. Run the script up to line 36 (this initialises the data and functions). Depending on which row of Table 7 you wish to generate:
    - Line 1 of Table 7 (Global Financial Crisis).
      - Run lines 39–40 and 54–55. Results are saved as:
        - `results.nt` → 4-SVBVAR (baseline model)
