@@ -46,6 +46,7 @@ All results in this repository were generated on one of the following machines:
 - Folder **appendix**  
   - Code for generating the tables and figures in the online appendix.
 
+<!--
 > **table execution checklist:** (recommended order)
 
 ### Table 3
@@ -132,6 +133,7 @@ The `Table7` folder contains the script `auroc.main.r`, which generates the resu
      - Run lines 51–52 and 54–55. Results are saved as:
        - `results.nt` → 4-SVBVAR (baseline model)
        - `results.wt` → TOSI-based 5-SVBVAR
+-->
 
 ---
 
